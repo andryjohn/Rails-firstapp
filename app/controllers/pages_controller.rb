@@ -1,14 +1,15 @@
 class PagesController < ApplicationController
 
-def salut
-@name = params[:name]
+def introduction
+  @rail = params[:rails]
+
 end
 
 
-def home 
-end 
+def home
+end
 
 
 
 
-end 
+end
