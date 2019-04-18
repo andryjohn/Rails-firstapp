@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
 
 def introduction
-  @rail = params[:rails]
+  @rails = params[:rails]
 
 end
 
